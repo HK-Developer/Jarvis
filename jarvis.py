@@ -190,3 +190,7 @@ if __name__ == "__main__":
             elif query2 == 'youtube':
                 youtubevideoopener(query)
                 speak('opening youtube')
+                
+            elif query2 == 'netflix':
+                webbrowser.open('www.netflix.com')
+                speak('opening netflix')
